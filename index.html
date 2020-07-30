@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HREXT10 R00lz!</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body class="m-3">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="input-group col-sm-10">
+          <div class="input-group-prepend">
+            <label class="input-group-text">Create Item for List</label>
+          </div>
+          <input class="value form-control" type="text">
+        </div>
+        <button class="reset btn btn-info btn-sm col-sm-2">Reset input</button>
+      </div>
+      <div class="row">
+        <button class="create btn btn-secondary btn-sm col-sm-3">Create</button>
+        <button class="update btn btn-info btn-sm col-sm-3">Update</button>
+        <button class="delete btn btn-secondary btn-sm col-sm-3">Delete</button>
+        <button class="clear btn btn-danger btn-sm col-sm-3">Clear Database</button>
+      </div>
+    <div class="row list-group"></div>
+    <script src="app/app.js"></script>
+  </body>
+</html>

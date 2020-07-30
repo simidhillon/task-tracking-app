@@ -1,0 +1,32 @@
+label {
+	text-decoration: underline;
+	font-family: Courier New;
+}
+
+.list-group-item {
+	font-family: Courier New;
+}
+
+.m-3 {
+	background-color: rgba(50, 115, 220, 0.3);
+}
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: white;
+    color: #111;
+    font-size: 100%;
+    position: sticky;
+    padding: 1px 5px 2px 5px;
+    left: 90%;
+    box-shadow: 1px 1px 1px;
+    border: 1px solid #111111;
+    visibility: hidden;
+    font-family: Courier New;
+}
